@@ -9,18 +9,24 @@ import { NaoEncontradoComponent } from './nao-encontrado/nao-encontrado.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     NaoEncontradoComponent
+
   ],
   imports: [
     BrowserModule,
     AppOutingModule,
     BrowserAnimationsModule,
     MatSnackBarModule,
+   
+    
     
   ],
   providers: [],
