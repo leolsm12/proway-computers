@@ -13,6 +13,6 @@ export class ProdutosService {
     return this.produtos;
   }
   getOne(produtoId: number){
-    return this.produtos.find(produto => produto.id = produtoId);
+    return this.produtos.find(produto => produto.id === produtoId);
   }
 }
