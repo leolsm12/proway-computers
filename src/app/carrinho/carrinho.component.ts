@@ -31,7 +31,7 @@ export class CarrinhoComponent implements OnInit {
     this.calculaTotal();
   }
   comprar(){
-    alert("Parabéns você finalizou s sua compra!");
+    alert("Parabéns você finalizou sua compra!");
     this.carrinhoService.limparCarrinho();
     this.router.navigate(["produtos"]);
   }
